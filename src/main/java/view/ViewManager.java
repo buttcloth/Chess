@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.util.List;
 import java.util.Map;
 
 public class ViewManager extends Application implements PropertyChangeListener {

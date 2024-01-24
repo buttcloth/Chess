@@ -1,6 +1,5 @@
 package interfaceAdapters.returnToMainMenu;
 
-import interfaceAdapters.ViewManagerModel;
 import interfaceAdapters.ViewModel;
 
 import java.beans.PropertyChangeListener;
