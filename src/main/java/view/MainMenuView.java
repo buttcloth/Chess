@@ -20,7 +20,6 @@ import java.util.Optional;
 public class MainMenuView implements PropertyChangeListener {
     private final String name = "MainMenuView";
 
-    private final NewGameViewModel newGameViewModel;
     private final NewGameController newGameController;
 
     private final AnchorPane scene;
@@ -31,7 +30,6 @@ public class MainMenuView implements PropertyChangeListener {
 
     public MainMenuView( NewGameViewModel newGameViewModel, NewGameController newGameController) throws IOException {
 
-        this.newGameViewModel = newGameViewModel;
         this.newGameController = newGameController;
 
 

@@ -8,12 +8,10 @@ import useCase.newGame.NewGameOutputData;
 public class NewGamePresenter implements NewGameOutputBoundary {
     private final NewGameViewModel newGameViewModel;
     private final ViewManagerModel viewModelManager;
-    private final MovePieceViewModel movePieceViewModel;
-
+    
     public NewGamePresenter(ViewManagerModel viewModelManager, NewGameViewModel newGameViewModel,  MovePieceViewModel movePieceViewModel) {
         this.newGameViewModel = newGameViewModel;
         this.viewModelManager = viewModelManager;
-        this.movePieceViewModel = movePieceViewModel;
     }
 
     @Override

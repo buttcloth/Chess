@@ -1,7 +1,6 @@
 package interfaceAdapters.GameOver;
 
 import interfaceAdapters.ViewModel;
-import interfaceAdapters.movePiece.MovePieceState;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
